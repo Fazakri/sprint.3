@@ -19,16 +19,16 @@ class Rabbit extends Animal {
 class Eagle extends Animal {
     constructor (name, age, isMammal){
         super(name, age, isMammal)
-        this.isMammal = true
+        this.isMammal = false
     }
     fly (){
         return `${this.name} sedang terbang`
     }
 }
 
-let myRabbit = new Rabbit ('Labi', 2)
-console.log(myRabbit.eat());
+let myRabbit = new Rabbit ('Labi', 2, true)
+console.log(myRabbit);
 
-let myEagle = new Eagle ('Elo', 4)
-console.log(myEagle.fly());
+let myEagle = new Eagle ('Elo', 4, false)
+console.log(myEagle);
 
