@@ -1,5 +1,5 @@
 class Animal {
-    constructor(name = '', age = 0, isMammal = true) {
+    constructor(name, age , isMammal) {
         this.name = name;
         this.age = age;
         this.isMammal = isMammal
